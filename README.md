@@ -15,7 +15,7 @@ Add the service provider to your config/app.php file
 
 Then we need to publish the migrations
 ```
- php artisan vendor:publish --provider="SamJoyce777\LaravelCalendarTable\CalendarServiceProvider"
+ php artisan vendor:publish --provider="SamJoyce777\LaravelCalendarTable\Providers\CalendarServiceProvider"
 ```
 
 In the console kernal you will need to add this. You will need to run the cron once a day, ie at 01:00
