@@ -55,7 +55,7 @@ class UpdateCalendar extends Command
                 'date' => $from->toDateTimeString()
             ], [
                 'date' => $from->toDateTimeString(),
-                'day' => $from->format('M'),
+                'day' => $from->format('D'),
                 'weekday' => $from->isWeekday()
             ]);
             $this->line('Date has been added for '. $from->format('Y-m-d') .'('. $from->format('D').')');
